@@ -3,10 +3,13 @@ body{
 }
 @media screen and (max-width: 576px) {
     .d-flex.align-items-center.border.border-1.rounded-end {
-        background-color: rgb(191, 138, 138);
+       
         flex-direction: column;
     }
     .d-flex.align-items-center.border.border-1.rounded-end img{
-        width:200px;
+        width:100%;
+    }
+    .course-image{
+        width: 100%;
     }
   }
